@@ -1,0 +1,355 @@
+body {
+  background: white;
+}
+
+/*header*/
+
+header {
+}
+
+header img {
+  width: 35%;
+
+  padding: 2%;
+}
+
+header button {
+  border: none;
+
+  color: white;
+
+  padding: 15px 32px;
+
+  text-align: right;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 12px;
+
+  float: right;
+
+  border: 2px solid #fec524;
+
+  padding: 10px 20px;
+
+  margin: 7px;
+
+  background: transparent;
+}
+
+header button:hover {
+  background-color: #fec524;
+
+  color: #720506;
+}
+
+/*dropdown*/
+
+.dropbtn {
+  color: white;
+
+  padding: 16px;
+
+  font-size: 12px;
+
+  border: none;
+
+  font-weight: bold;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+  position: relative;
+
+  display: inline-block;
+
+  float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+  display: none;
+
+  position: absolute;
+  right: 0px;
+
+  padding: 15px;
+
+  min-width: 160px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+  z-index: 1;
+
+  margin: 50px;
+
+  font-size: 12px;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+  color: white;
+
+  padding: 12px 16px;
+
+  text-decoration: none;
+
+  display: block;
+
+  background-color: #720506;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+  background-color: #620506;
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+  float: left;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+
+  float: left;
+}
+
+.Logo {
+  background-image: url("https://photos.smugmug.com/JCS-High-School/NewberryMathTechnology/19-20-Coding/Tubbs/i-8hRTdTg/0/40b29a69/X2/Screen%20Shot%202019-09-19%20at%2012.48.38%20PM-X2.png");
+  border-bottom-style: solid;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-color: #fec524;
+  background-size: cover;
+  padding-bottom: 500px;
+}
+
+.yeet {
+  color: transparent;
+}
+
+.hr {
+  padding-top: 6%;
+  color: maroon;
+  font-size: 45px;
+  text-align: center;
+  font-family: arial;
+  font-weight: bold;
+}
+
+hr {
+  width: 60%;
+  border: 2px solid lightgrey;
+}
+
+.meme {
+  font-family: sans-serif;
+  padding-left: 25%;
+  color: grey;
+  text-align:center;
+}
+
+.ranch-head {
+  width: 100%;
+  margin-top: 4%;
+}
+
+.fatls {
+  column-count: 3;
+  column-gap: 1%;
+  column-width: 20%;
+  text-align: center;
+}
+
+.big {
+  border: none;
+
+  color: #720506;
+
+  padding: 15px 32px;
+
+  text-align: right;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 16px;
+
+  border: 2px solid #720506;
+
+  background: transparent;
+}
+
+.big:hover {
+  background-color: #720506;
+
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  width: 3px;
+}
+
+footer {
+  background: #3f4543;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.chungus{
+
+  color: white;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 25px;
+
+  background:#B38B1A;
+
+  margin-left:6%;
+
+   padding-top:100px;
+
+   padding-bottom:100px;
+
+width:25%;
+
+}
+
+.chungus:hover {
+
+  background-image: url("http://www.timothyhill.org/images/main/temp-partners.jpg");
+
+   background-position: center;
+
+  background-size: cover;
+
+  color: transparent;
+
+}
+
+.kachunga{
+
+  color: white;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 25px;
+
+  background:#8E2327;
+
+  margin-left:6%;
+
+  padding-top:100px;
+
+   padding-bottom:100px;
+
+  width:25%;
+
+}
+
+.kachunga:hover {
+
+  background-image: url("http://www.timothyhill.org/images/main/temp-volunteer.jpg");
+
+  color: transparent;
+
+  background-position: center;
+
+  background-size: cover;
+
+}
+
+.motomoto{
+
+  color: white;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  font-size: 25px;
+
+  background:#3c4628;
+
+  margin-left:6%;
+
+  padding-top:100px;
+
+   padding-bottom:100px;
+
+width:25%;
+
+}
+
+.motomoto:hover {
+
+  background-image: url("http://www.timothyhill.org/images/main/temp-donate.jpg");
+
+  color: transparent;
+
+  background-position: center;
+
+  background-size: cover;
+
+}
+
+.jesus {
+
+  column-count: 3;
+
+   column-gap: 1%;
+
+  column-width: 20%;
+
+text-align:center;
+
+}
+
+.hm{
+
+  padding-top: 6%;
+
+  color: black;
+
+  font-size: 45px;
+
+  text-align: center;
+
+  font-family: arial;
+
+  font-weight: bold;
+
+}
